@@ -1,0 +1,10 @@
+.topicList:not(:nth-last-of-type(1)) {
+  margin-bottom: 1rem;
+}
+
+.error {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--color-red);
+  font-size: var(--font-size-min);
+}

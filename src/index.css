@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --font-size-min: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+
+  --color-purple-dark: #652cd1;
+  --color-purple-light: #845eee;
+
+  --color-red: #f1515b;
+
+  --color-stone-0: #e5e7eb;
+  --color-stone-100: #a1a1a9;
+  --color-stone-200: #4d5562;
+  --color-stone-300: #394150;
+  --color-stone-700: #212936;
+  --color-stone-800: #121826;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: inherit;
+}
+
+textarea,
+input {
+  color: inherit;
+  font: inherit;
+  border: none;
+  border-radius: unset;
+  outline: none;
+  background: none;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+body {
+  min-height: 100dvh;
+  color: var(--color-stone-0);
+  font-size: var(--font-size-md);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  background-image: url('/blur-radial.svg'), url('/blur-radial.svg');
+  background-color: var(--color-stone-800);
+  background-position: -20dvw -40dvh, 65dvw 45dvh;
+  background-repeat: no-repeat;
+}

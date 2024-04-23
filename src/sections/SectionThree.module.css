@@ -1,0 +1,25 @@
+.content-row--1 {
+  margin-bottom: 1rem;
+}
+
+.content-row--1,
+.content-row--2 {
+  line-height: 1.8;
+}
+
+.content-row--1 p,
+.content-row--2 {
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+}
+
+.label {
+  color: var(--color-stone-100);
+  font-weight: 600;
+}
+
+.content-row--2 li {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  padding-left: 0.25rem;
+}

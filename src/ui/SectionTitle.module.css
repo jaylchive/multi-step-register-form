@@ -1,0 +1,9 @@
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.title.marginLarge {
+  margin-bottom: 2.5rem;
+}
